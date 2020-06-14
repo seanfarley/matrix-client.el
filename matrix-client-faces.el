@@ -62,6 +62,7 @@
 
 (defface matrix-client-warn-encrypted
   '((t (:foreground "red" :weight bold)))
-  "Face for displaying warnings about encrypted rooms.")
+  "Face for displaying warnings about encrypted rooms."
+  :group 'matrix-client)
 
 (provide 'matrix-client-faces)
